@@ -1,0 +1,11 @@
+#taboola-below-article-thumbnails, #original-image {
+      margin-left: calc((100% - 800px)/2);
+      width: 800px;
+}
+
+#headline {
+    font-size: 48px;
+    font-family: 'Comic Sans MS';
+    background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);   -webkit-background-clip: text;
+    color: transparent;
+}
