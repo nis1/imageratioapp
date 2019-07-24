@@ -1,9 +1,23 @@
-#taboola-below-article-thumbnails, #original-image {
+#taboola-below-article-thumbnails{
       margin-left: calc((100% - 800px)/2);
       width: 800px;
+}
+
+#original-image {
+      margin-left: calc((100% - 800px)/2);
 }
 
 #headline {
     font-size: 48px;
     font-family: 'Comic Sans MS';
+    font-weight: bold;
+}
+
+#original-image-header {
+    margin-left: calc((100% - 800px)/2);
+    width: 800px;
+    text-align: left;
+    font-size: 22px;
+    font-family: 'Comic Sans MS';
+  
 }
