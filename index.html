@@ -3,8 +3,6 @@
 <head>
 <link rel="stylesheet" type="text/css" href="/imageratioapp/css/css.css">
 
-
-
   <script type="text/javascript">
     window._taboola = window._taboola || [];
     _taboola.push({
@@ -50,5 +48,15 @@
     });
   </script>
 </body>
+
+<script>
+if (window.imgURL) {
+  var imgPreview = document.getElementById('original-image');
+  imgPreview.setAttribute('style', 'height: auto; width: auto;');
+  var imgImg = document.createElement('img');
+  imgPreview.appendChild(imgImg);
+  imgImg.setAttribute('src', window.imgURL);
+}
+</script>
 
 </html>
