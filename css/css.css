@@ -1,23 +1,27 @@
-#taboola-below-article-thumbnails{
-      margin-left: calc((100% - 800px)/2);
-      width: 800px;
+#taboola-below-article-thumbnails {
+    margin-left: calc((100% - 800px)/2);
+    width: 800px;
+}
+
+#original-image {
+  margin: auto;
+  max-width: 800px;
 }
 
 #original-image img{
-   max-width: 99vw;
+ max-width: 100%;
 }
 
 #headline {
-    font-size: 48px;
-    font-family: 'Comic Sans MS';
-    font-weight: bold;
+  font-size: 48px;
+  font-family: 'Helvetica', sans-serif;
+  font-weight: bold;
 }
 
 #original-image-header {
-    margin-left: calc((100% - 800px)/2);
-    width: 800px;
-    text-align: left;
-    font-size: 22px;
-    font-family: 'Comic Sans MS';
-
+  
+  font-size: 22px;
+  font-family: 'Helvetica', sans-serif;
+  margin: auto;
+  width: 800px;
 }
