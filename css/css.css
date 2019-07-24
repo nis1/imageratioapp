@@ -3,9 +3,8 @@
       width: 800px;
 }
 
-#original-image {
-  /* margin-left: calc((100%)/2); */
-  max-width: 90%;
+#original-image img{
+   max-width: 99vw;
 }
 
 #headline {
