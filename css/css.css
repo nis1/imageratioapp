@@ -1,27 +1,26 @@
+#headline {
+    font-size: 48px;
+    font-family: 'Helvetica', sans-serif;
+    text-align: center;
+}
+
+#original-image {
+    margin: auto;
+    max-width: 800px;
+}
+
 #taboola-below-article-thumbnails {
     margin-left: calc((100% - 800px)/2);
     width: 800px;
 }
 
-#original-image {
-  margin: auto;
-  max-width: 800px;
-}
-
-#original-image img{
- max-width: 100%;
-}
-
-#headline {
-  font-size: 48px;
-  font-family: 'Helvetica', sans-serif;
-  font-weight: bold;
+#original-image img {
+    max-width: 100%;
 }
 
 #original-image-header {
-  
-  font-size: 22px;
-  font-family: 'Helvetica', sans-serif;
-  margin: auto;
-  width: 800px;
+    font-size: 22px;
+    font-family: 'Helvetica', sans-serif;
+    margin: auto;
+    width: 800px;
 }
