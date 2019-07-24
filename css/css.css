@@ -4,7 +4,8 @@
 }
 
 #original-image {
-      margin-left: calc((100% - 800px)/2);
+  /* margin-left: calc((100%)/2); */
+  max-width: 90%;
 }
 
 #headline {
@@ -19,5 +20,5 @@
     text-align: left;
     font-size: 22px;
     font-family: 'Comic Sans MS';
-  
+
 }
